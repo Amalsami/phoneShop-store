@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/getInTouch.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <script src="./JS/script.js"></script>
+
+    <!-- Contact Section -->
+    <div class="contact pd-y">
+        <div class="section-header">
+            <h2 class="section-title">Contact us</h2>
+            <span class="line"></span>
+            <p>Have questions, feedback, or need assistance? Our dedicated customer support team is available around the clock to address your inquiries and concerns. Feel free to reach out to us via email, phone, or live chat – we're here to help.</p>
+        </div>
+            <form action="">
+                <input type="text" placeholder="Name.." class="username" id="username">
+                <span id="nameError" style="display: none ; padding-left: 8px;"></span>
+
+                <input type="email" placeholder="Email.." id="email">
+                <span id="emailError" style="display: none ; padding-left: 8px;"></span>
+
+                <input type="number" placeholder="Phone.." id="phone">
+                <span id="phoneError" style="display: none ; padding-left: 8px;"></span>
+
+                <input type="text" placeholder="subject" id="subject">
+                <span id="subjectError" style="display: none ; padding-left: 8px;"></span>
+
+                <textarea cols="50" rows="10" placeholder="Message.." id="message" ></textarea>
+                <span id="messageError" style="display: none ; padding-left: 8px;"></span>
+
+                <button type="submit" class="send-message" id="send-message">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <script src="JS/contact.js"></script>
+</body>
+
+</html>

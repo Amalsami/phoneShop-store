@@ -1,0 +1,56 @@
+/*get in touch */
+
+
+.section-header {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.section-header .section-title {
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.section-header .line {
+  display: block;
+  height: 5px;
+  width: 70px;
+  margin: 0 auto 70px auto;
+  background-color: #ff1d8b;
+}
+
+.pd-y {
+  padding: 80px 0;
+}
+
+/* Contact Section*/
+
+.getintouch-items {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.getintouch-items .item {
+  width: 30%;
+  float: left;
+  text-align: center
+}
+
+.getintouch-items .item.mg {
+  margin: 0 5%
+}
+
+.getintouch-items .item i {
+  color: #D9086E;
+}
+
+.getintouch-items .item-title {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.getintouch-items .item-text {
+  color: black
+}

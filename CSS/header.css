@@ -1,0 +1,69 @@
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background: rgba(37, 37, 37, 0.6);
+  background-attachment: fixed;
+}
+
+.header .logo {
+  width: 40%;
+  float: left;
+
+}
+
+.header .logo img {
+  margin-top: 10px;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.header .nav {
+  width: 60%;
+  float: left;
+  list-style: none;
+  text-align: right;
+}
+
+.header .nav>li {
+  display: inline-block;
+  text-align: center;
+
+}
+
+.header .nav>li>a {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 30px 10px;
+  display: block;
+}
+
+.header .nav>li>a.active:after,
+.header .nav>li>a:after {
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 2px;
+  background-color: #ff1d8b;
+  transition: width 0.45s;
+}
+
+.header .nav>li>a.active:after {
+
+  width: 100%;
+
+}
+
+.header .nav>li>a:after {
+
+  width: 0;
+
+}
+
+.header .nav>li>a:hover:after {
+  width: 100%;
+}

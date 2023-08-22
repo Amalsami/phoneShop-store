@@ -1,0 +1,54 @@
+
+
+.contact form {
+    width: 70%;
+    margin: 30px auto
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    border: 0;
+    background: #f4f4f4;
+    border-bottom: 2px solid #eee;
+    color: #354052;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.contact form span{
+    margin-bottom: 20px;
+}
+
+.contact form input[type=submit] {
+    width: 180px;
+    padding: 10px;
+
+}
+
+.send-message {
+    background: none;
+    display: block;
+    width: 150px;
+    padding: 8px;
+    margin: 15px auto 0 auto;
+    color: #D9086E;
+    border: 2px solid #D9086E;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background .7s;
+    font-weight: bold;
+}
+
+.send-message:hover {
+    background: #D9086E;
+    color: #fff;
+
+}
+p{
+    margin: auto;
+    width: 1000px;
+    line-height: 2rem;
+}
